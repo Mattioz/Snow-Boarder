@@ -242,7 +242,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -298,7 +298,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -5387,6 +5387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadDelay: 1
+  crashEffect: {fileID: 23945884}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,7 +5659,7 @@ Transform:
   m_GameObject: {fileID: 968072599}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.67, z: 9.049488}
+  m_LocalPosition: {x: 0, y: 5.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6501,7 +6502,7 @@ Transform:
   m_GameObject: {fileID: 1406109673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.26, z: 9.049488}
+  m_LocalPosition: {x: 0, y: 2.26, z: 0}
   m_LocalScale: {x: 0.56251, y: 6.1499, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6790,6 +6791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadDelay: 1
+  finishEffect: {fileID: 1617575652}
 --- !u!61 &1551211596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6845,7 +6847,7 @@ Transform:
   m_GameObject: {fileID: 1551211594}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.9, y: -26.9, z: -9.049488}
+  m_LocalPosition: {x: 103.9, y: -26.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6965,7 +6967,7 @@ Transform:
   m_GameObject: {fileID: 1617575649}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.06, y: -0.85, z: 6.1}
+  m_LocalPosition: {x: -0.06, y: -0.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7060,7 +7062,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
