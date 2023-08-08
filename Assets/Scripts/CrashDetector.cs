@@ -11,12 +11,12 @@ public class CrashDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.tag == "Ground")
+        if(other.CompareTag("Ground"))
         {
             FindFirstObjectByType<PlayerController>().DisableControls();
             crashEffect.Play();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
-            Invoke("ReloadScene", loadDelay );
+            Invoke(nameof(ReloadScene), loadDelay);
         }
     }
 
